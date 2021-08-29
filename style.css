@@ -34,10 +34,23 @@ a{
 .description h1{
     font-size: 64px ;
     color: white;
-    
     margin-bottom: 27px;
 }
-
+@keyframes color {
+    0%{
+        color:white;
+    }
+    50%{
+        color:red;
+    }
+    100%{
+      color: rgb(207, 142, 57);
+    }
+}
+.title-section:hover h1{
+    animation: color 3s ease-in-out 1s infinite;
+    
+}
 .description img{
     width: 80%;
 }
