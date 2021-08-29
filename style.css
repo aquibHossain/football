@@ -50,6 +50,7 @@ a{
 .title-section:hover h1{
     animation: color 3s ease-in-out 1s infinite;
     
+    
 }
 .description img{
     width: 80%;
