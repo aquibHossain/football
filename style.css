@@ -71,11 +71,18 @@ a{
     grid-template-columns: repeat(3,1fr);
     margin: 70px 200px;
     grid-gap: 30px;
+   
 
 }
 .player{
     padding: 15px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   transition: transform .5s ease-out;
+   overflow: hidden;
+  
+}
+.player:hover{
+    transform: scale(1.2);
 }
 .player-image img{
   width: 100%;
